@@ -1,0 +1,30 @@
+<!--Devon Sihra--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- saved from url=(0014)about:internet -->
+	<title>Determine Total</title>
+	<script src = "Lab4-DetermineTotal.js"></script> 
+</head>
+
+<body>
+	<form action=#>
+		<p><h1>Calculate After Tax Total</h1></p>
+		<p>
+			Enter Before Tax Total...<input type="text" id="txtBefore"><br>
+			Enter Tax as a Percent...<input type="text" id="txtTax">%<br>
+			<input type="checkbox" id="chkSenior" value="0.05">Apply Senior's Discount<br>
+		</p>
+		<p>
+			After Tax Total:<input type="text" readonly="readonly" id="txtTotal"><br>
+		</p>
+		<p>
+			<input type="button" value="Determine Total" id="btnTotal" onclick="btnTotal_onclick()">
+			<input type="reset">
+		</p>
+	</form>
+	
+	<noscript>This website requires JavaScript to be enabled.</noscript>
+</body>
+</html>
